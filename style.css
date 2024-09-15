@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  font-family: "Times New Roman", Times, serif;
+  z-index: 1;
+}
+.logo {
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 2px solid black;
+}
+.nav_links {
+  display: flex;
+  gap: 30px;
+}
+.nav_links li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.nav_icons {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+.hero_text {
+  text-align: center;
+}
+.hero_text p {
+  padding: 0 0 10px 0;
+}
+.hero_text h1 {
+  font-size: 40px;
+}
+.hero_text button,
+.hero_link {
+  color: white;
+  background-color: black;
+  padding: 10px 18px;
+  border: none;
+}
